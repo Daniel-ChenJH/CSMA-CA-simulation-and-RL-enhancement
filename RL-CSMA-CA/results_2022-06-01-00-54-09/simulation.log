@@ -1,0 +1,893 @@
+2022-06-01 00:54:09-sim.log
+
+Parameters of this simulation:
+*****
+
+ACK_LENGTH = 272
+ACK_TIMEOUT = 366964.962962963
+BITRATE = 54000000
+BIT_TRANSMISSION_TIME = 18.51851851851852
+CW_MAX = 1024
+CW_MIN = 16
+DIFS_DURATION = 50000
+FREQUENCY = 2400000000
+MAC_HEADER_LENGTH = 272
+MAX_MAC_PAYLOAD_LENGTH = 18496
+MAX_RETRANSMITION_TIME = 10
+NOISE_FLOOR = 1e-09
+NUMBER_OF_NODES = 4
+PACKET_LOSS_RATE = 0.01
+PHY_HEADER_LENGTH = 128
+PRINT_LOGS = True
+RADIO_SENSITIVITY = 1e-10
+RADIO_SWITCHING_TIME = 100
+SIFS_DURATION = 10000
+SIM_TIME = 50000000000.0
+SLOT_DURATION = 20000
+STARTING_RATE = 5
+TARGET_RATE = 5
+TRANSMITTING_POWER = 0.1
+WAVELENGTH = 0.12491352416666666
+*****
+
+Log starting
+------------------------
+
+Node0 created with coordinates 23 11
+Node1 created with coordinates 13 24
+Node2 created with coordinates 22 17
+Node3 created with coordinates 32 25
+Time 100: Node0 starts listening
+Time 100: Node1 starts listening
+Time 100: Node2 starts listening
+Time 100: Node3 starts listening
+Time 44035590: Node2 sends 44035590_Node2_Node0 to Node0
+2
+Time 44105790: Node2 stops listening
+Time 44105790: Node2 PHY starts transmission of 44035590_Node2_Node0
+Time 44222103: Node2 PHY ends transmission of 44035590_Node2_Node0
+Time 44222123: Node0 MAC receives packet 44035590_Node2_Node0 from Node2 and sends ACK
+Time 44222123: Node0 receives 44035590_Node2_Node0 from Node2
+Time 44222203: Node2 starts listening
+Time 44232323: Node0 stops listening
+Time 44232323: Node0 PHY starts transmission of 44035590_Node2_Node0 ACK
+Time 44237488: Node0 PHY ends transmission of 44035590_Node2_Node0 ACK
+Time 44237508: Node2 MAC receives ACK 44035590_Node2_Node0 from Node0
+Node Node2 begins to learn, reward is 0.495250
+Time 44237588: Node0 starts listening
+Time 47935025: Node2 sends 47935025_Node2_Node3 to Node3
+2
+Time 48005225: Node2 stops listening
+Time 48005225: Node2 PHY starts transmission of 47935025_Node2_Node3
+Time 48280723: Node2 PHY ends transmission of 47935025_Node2_Node3
+Time 48280766: Node3 MAC receives packet 47935025_Node2_Node3 from Node2 and sends ACK
+Time 48280766: Node3 receives 47935025_Node2_Node3 from Node2
+Time 48280823: Node2 starts listening
+Time 48290966: Node3 stops listening
+Time 48290966: Node3 PHY starts transmission of 47935025_Node2_Node3 ACK
+Time 48296131: Node3 PHY ends transmission of 47935025_Node2_Node3 ACK
+Time 48296174: Node2 MAC receives ACK 47935025_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.276894
+Time 48296231: Node3 starts listening
+Time 167244292: Node1 sends 167244292_Node1_Node0 to Node0
+5
+Time 167344492: Node1 stops listening
+Time 167344492: Node1 PHY starts transmission of 167244292_Node1_Node0
+Time 167362545: Node1 PHY ends transmission of 167244292_Node1_Node0
+Time 167362600: Node0 MAC receives packet 167244292_Node1_Node0 from Node1 and sends ACK
+Time 167362600: Node0 receives 167244292_Node1_Node0 from Node1
+Time 167362645: Node1 starts listening
+Time 167372800: Node0 stops listening
+Time 167372800: Node0 PHY starts transmission of 167244292_Node1_Node0 ACK
+Time 167377965: Node0 PHY ends transmission of 167244292_Node1_Node0 ACK
+Time 167378065: Node0 starts listening
+Time 167711256: Node1 167244292_Node1_Node0 transmit timeout without ACK from Node0
+Time 167711256: Node1 MAC retransmit 167244292_Node1_Node0 to Node0
+Node Node1 begins to learn, reward is -1.000000
+8
+Time 167841456: Node1 stops listening
+Time 167841456: Node1 PHY starts transmission of 167244292_Node1_Node0
+Time 167859510: Node1 PHY ends transmission of 167244292_Node1_Node0
+Time 167859565: Node0 MAC receives packet 167244292_Node1_Node0 from Node1 and sends ACK
+Time 167859565: Node0 receives 167244292_Node1_Node0 from Node1
+Time 167859610: Node1 starts listening
+Time 167869765: Node0 stops listening
+Time 167869765: Node0 PHY starts transmission of 167244292_Node1_Node0 ACK
+Time 167874930: Node0 PHY ends transmission of 167244292_Node1_Node0 ACK
+Time 167874985: Node1 MAC receives ACK 167244292_Node1_Node0 from Node0
+Node Node1 begins to learn, reward is 0.158556
+Time 167875030: Node0 starts listening
+Time 203808914: Node2 sends 203808914_Node2_Node1 to Node1
+0
+Time 203859114: Node2 stops listening
+Time 203859114: Node2 PHY starts transmission of 203808914_Node2_Node1
+Time 203877945: Node2 PHY ends transmission of 203808914_Node2_Node1
+Time 203877983: Node1 MAC receives packet 203808914_Node2_Node1 from Node2 and sends ACK
+Time 203877983: Node1 receives 203808914_Node2_Node1 from Node2
+Time 203878045: Node2 starts listening
+Time 203888183: Node1 stops listening
+Time 203888183: Node1 PHY starts transmission of 203808914_Node2_Node1 ACK
+Time 203893348: Node1 PHY ends transmission of 203808914_Node2_Node1 ACK
+Time 203893386: Node2 MAC receives ACK 203808914_Node2_Node1 from Node1
+Node Node2 begins to learn, reward is 1.183814
+Time 203893448: Node1 starts listening
+Time 243249252: Node1 sends 243249252_Node1_Node3 to Node3
+5
+Time 243349452: Node1 stops listening
+Time 243349452: Node1 PHY starts transmission of 243249252_Node1_Node3
+Time 243475209: Node1 PHY ends transmission of 243249252_Node1_Node3
+Time 243475272: Node3 MAC receives packet 243249252_Node1_Node3 from Node1 and sends ACK
+Time 243475272: Node3 receives 243249252_Node1_Node3 from Node1
+Time 243475309: Node1 starts listening
+Time 243485472: Node3 stops listening
+Time 243485472: Node3 PHY starts transmission of 243249252_Node1_Node3 ACK
+Time 243490637: Node3 PHY ends transmission of 243249252_Node1_Node3 ACK
+Time 243490700: Node1 MAC receives ACK 243249252_Node1_Node3 from Node3
+Node Node1 begins to learn, reward is 0.414167
+Time 243490737: Node3 starts listening
+Time 274334560: Node1 sends 274334560_Node1_Node2 to Node2
+0
+Time 274384760: Node1 stops listening
+Time 274384760: Node1 PHY starts transmission of 274334560_Node1_Node2
+Time 274723147: Node1 PHY ends transmission of 274334560_Node1_Node2
+Time 274723185: Node2 MAC receives packet 274334560_Node1_Node2 from Node1 and sends ACK
+Time 274723185: Node2 receives 274334560_Node1_Node2 from Node1
+Time 274723247: Node1 starts listening
+Time 274733385: Node2 stops listening
+Time 274733385: Node2 PHY starts transmission of 274334560_Node1_Node2 ACK
+Time 274738550: Node2 PHY ends transmission of 274334560_Node1_Node2 ACK
+Time 274738588: Node1 MAC receives ACK 274334560_Node1_Node2 from Node2
+Node Node1 begins to learn, reward is 0.247507
+Time 274738650: Node2 starts listening
+Time 353459030: Node0 sends 353459030_Node0_Node2 to Node2
+0
+Time 353509230: Node0 stops listening
+Time 353509230: Node0 PHY starts transmission of 353459030_Node0_Node2
+Time 353808265: Node0 PHY ends transmission of 353459030_Node0_Node2
+Time 353808285: Node2 MAC receives packet 353459030_Node0_Node2 from Node0 and sends ACK
+Time 353808285: Node2 receives 353459030_Node0_Node2 from Node0
+Time 353808365: Node0 starts listening
+Time 353818485: Node2 stops listening
+Time 353818485: Node2 PHY starts transmission of 353459030_Node0_Node2 ACK
+Time 353823650: Node2 PHY ends transmission of 353459030_Node0_Node2 ACK
+Time 353823670: Node0 MAC receives ACK 353459030_Node0_Node2 from Node2
+Node Node0 begins to learn, reward is 0.274243
+Time 353823750: Node2 starts listening
+Time 478462326: Node3 sends 478462326_Node3_Node0 to Node0
+5
+Time 478562526: Node3 stops listening
+Time 478562526: Node3 PHY starts transmission of 478462326_Node3_Node0
+Time 478745931: Node3 PHY ends transmission of 478462326_Node3_Node0
+Time 478746031: Node3 starts listening
+Time 478929290: Node3 478462326_Node3_Node0 transmit timeout without ACK from Node0
+Time 478929290: Node3 MAC retransmit 478462326_Node3_Node0 to Node0
+Node Node3 begins to learn, reward is -1.000000
+4
+Time 479019490: Node3 stops listening
+Time 479019490: Node3 PHY starts transmission of 478462326_Node3_Node0
+Time 479202896: Node3 PHY ends transmission of 478462326_Node3_Node0
+Time 479202952: Node0 MAC receives packet 478462326_Node3_Node0 from Node3 and sends ACK
+Time 479202952: Node0 receives 478462326_Node3_Node0 from Node3
+Time 479202996: Node3 starts listening
+Time 479213152: Node0 stops listening
+Time 479213152: Node0 PHY starts transmission of 478462326_Node3_Node0 ACK
+Time 479218317: Node0 PHY ends transmission of 478462326_Node3_Node0 ACK
+Time 479218373: Node3 MAC receives ACK 478462326_Node3_Node0 from Node0
+Node Node3 begins to learn, reward is 0.132267
+Time 479218417: Node0 starts listening
+Time 493441603: Node1 sends 493441603_Node1_Node3 to Node3
+5
+Time 493541803: Node1 stops listening
+Time 493541803: Node1 PHY starts transmission of 493441603_Node1_Node3
+Time 493743005: Node1 PHY ends transmission of 493441603_Node1_Node3
+Time 493743068: Node3 MAC receives packet 493441603_Node1_Node3 from Node1 and sends ACK
+Time 493743068: Node3 receives 493441603_Node1_Node3 from Node1
+Time 493743105: Node1 starts listening
+Time 493753268: Node3 stops listening
+Time 493753268: Node3 PHY starts transmission of 493441603_Node1_Node3 ACK
+Time 493758433: Node3 PHY ends transmission of 493441603_Node1_Node3 ACK
+Time 493758496: Node1 MAC receives ACK 493441603_Node1_Node3 from Node3
+Node Node1 begins to learn, reward is 0.315564
+Time 493758533: Node3 starts listening
+Time 574744130: Node0 sends 574744130_Node0_Node1 to Node1
+4
+Time 574834330: Node0 stops listening
+Time 574834330: Node0 PHY starts transmission of 574744130_Node0_Node1
+Time 574977476: Node0 PHY ends transmission of 574744130_Node0_Node1
+Time 574977531: Node1 MAC receives packet 574744130_Node0_Node1 from Node0 and sends ACK
+Time 574977531: Node1 receives 574744130_Node0_Node1 from Node0
+Time 574977576: Node0 starts listening
+Time 574987731: Node1 stops listening
+Time 574987731: Node1 PHY starts transmission of 574744130_Node0_Node1 ACK
+Time 574992896: Node1 PHY ends transmission of 574744130_Node0_Node1 ACK
+Time 574992951: Node0 MAC receives ACK 574744130_Node0_Node1 from Node1
+Node Node0 begins to learn, reward is 0.401894
+Time 574992996: Node1 starts listening
+Time 691652307: Node0 sends 691652307_Node0_Node3 to Node3
+7
+Time 691772507: Node0 stops listening
+Time 691772507: Node0 PHY starts transmission of 691652307_Node0_Node3
+Time 691869764: Node0 PHY ends transmission of 691652307_Node0_Node3
+Time 691869820: Node3 MAC receives packet 691652307_Node0_Node3 from Node0 and sends ACK
+Time 691869820: Node3 receives 691652307_Node0_Node3 from Node0
+Time 691869864: Node0 starts listening
+Time 691880020: Node3 stops listening
+Time 691880020: Node3 PHY starts transmission of 691652307_Node0_Node3 ACK
+Time 691885185: Node3 PHY ends transmission of 691652307_Node0_Node3 ACK
+Time 691885241: Node0 MAC receives ACK 691652307_Node0_Node3 from Node3
+Node Node0 begins to learn, reward is 0.429305
+Time 691885285: Node3 starts listening
+Time 718466688: Node3 sends 718466688_Node3_Node1 to Node1
+7
+Time 718586888: Node3 stops listening
+Time 718586888: Node3 PHY starts transmission of 718466688_Node3_Node1
+Time 718933534: Node3 PHY ends transmission of 718466688_Node3_Node1
+Time 718933597: Node1 MAC receives packet 718466688_Node3_Node1 from Node3 and sends ACK
+Time 718933597: Node1 receives 718466688_Node3_Node1 from Node3
+Time 718933634: Node3 starts listening
+Time 718943797: Node1 stops listening
+Time 718943797: Node1 PHY starts transmission of 718466688_Node3_Node1 ACK
+Time 718948962: Node1 PHY ends transmission of 718466688_Node3_Node1 ACK
+Time 718949025: Node3 MAC receives ACK 718466688_Node3_Node1 from Node1
+Node Node3 begins to learn, reward is 0.207324
+Time 718949062: Node1 starts listening
+Time 863543361: Node3 sends 863543361_Node3_Node0 to Node0
+7
+Time 863663561: Node3 stops listening
+Time 863663561: Node3 PHY starts transmission of 863543361_Node3_Node0
+Time 863821281: Node3 PHY ends transmission of 863543361_Node3_Node0
+Time 863821337: Node0 MAC receives packet 863543361_Node3_Node0 from Node3 and sends ACK
+Time 863821337: Node0 receives 863543361_Node3_Node0 from Node3
+Time 863821381: Node3 starts listening
+Time 863831537: Node0 stops listening
+Time 863831537: Node0 PHY starts transmission of 863543361_Node3_Node0 ACK
+Time 863836702: Node0 PHY ends transmission of 863543361_Node3_Node0 ACK
+Time 863836758: Node3 MAC receives ACK 863543361_Node3_Node0 from Node0
+Node Node3 begins to learn, reward is 0.340834
+Time 863836802: Node0 starts listening
+Time 864596006: Node1 sends 864596006_Node1_Node2 to Node2
+0
+Time 864646206: Node1 stops listening
+Time 864646206: Node1 PHY starts transmission of 864596006_Node1_Node2
+Time 864930408: Node1 PHY ends transmission of 864596006_Node1_Node2
+Time 864930446: Node2 MAC receives packet 864596006_Node1_Node2 from Node1 and sends ACK
+Time 864930446: Node2 receives 864596006_Node1_Node2 from Node1
+Time 864930508: Node1 starts listening
+Time 864940646: Node2 stops listening
+Time 864940646: Node2 PHY starts transmission of 864596006_Node1_Node2 ACK
+Time 864945811: Node2 PHY ends transmission of 864596006_Node1_Node2 ACK
+Time 864945849: Node1 MAC receives ACK 864596006_Node1_Node2 from Node2
+Node Node1 begins to learn, reward is 0.285842
+Time 864945911: Node2 starts listening
+Time 957999600: Node1 sends 957999600_Node1_Node3 to Node3
+5
+Time 958099800: Node1 stops listening
+Time 958099800: Node1 PHY starts transmission of 957999600_Node1_Node3
+Time 958250946: Node1 PHY ends transmission of 957999600_Node1_Node3
+Time 958251009: Node3 MAC receives packet 957999600_Node1_Node3 from Node1 and sends ACK
+Time 958251009: Node3 receives 957999600_Node1_Node3 from Node1
+Time 958251046: Node1 starts listening
+Time 958261209: Node3 stops listening
+Time 958261209: Node3 PHY starts transmission of 957999600_Node1_Node3 ACK
+Time 958266374: Node3 PHY ends transmission of 957999600_Node1_Node3 ACK
+Time 958266437: Node1 MAC receives ACK 957999600_Node1_Node3 from Node3
+Node Node1 begins to learn, reward is 0.374760
+Time 958266474: Node3 starts listening
+Time 971976310: Node1 sends 971976310_Node1_Node3 to Node3
+5
+Time 972076510: Node1 stops listening
+Time 972076510: Node1 PHY starts transmission of 971976310_Node1_Node3
+Time 972299638: Node1 PHY ends transmission of 971976310_Node1_Node3
+Time 972299701: Node3 MAC receives packet 971976310_Node1_Node3 from Node1 and sends ACK
+Time 972299701: Node3 receives 971976310_Node1_Node3 from Node1
+Time 972299738: Node1 starts listening
+Time 972309901: Node3 stops listening
+Time 972309901: Node3 PHY starts transmission of 971976310_Node1_Node3 ACK
+Time 972315066: Node3 PHY ends transmission of 971976310_Node1_Node3 ACK
+Time 972315129: Node1 MAC receives ACK 971976310_Node1_Node3 from Node3
+Node Node1 begins to learn, reward is 0.295143
+Time 972315166: Node3 starts listening
+Time 972443839: Node0 sends 972443839_Node0_Node1 to Node1
+4
+Time 972534039: Node0 stops listening
+Time 972534039: Node0 PHY starts transmission of 972443839_Node0_Node1
+Time 972610481: Node0 PHY ends transmission of 972443839_Node0_Node1
+Time 972610536: Node1 MAC receives packet 972443839_Node0_Node1 from Node0 and sends ACK
+Time 972610536: Node1 receives 972443839_Node0_Node1 from Node0
+Time 972610581: Node0 starts listening
+Time 972620736: Node1 stops listening
+Time 972620736: Node1 PHY starts transmission of 972443839_Node0_Node1 ACK
+Time 972625901: Node1 PHY ends transmission of 972443839_Node0_Node1 ACK
+Time 972625956: Node0 MAC receives ACK 972443839_Node0_Node1 from Node1
+Node Node0 begins to learn, reward is 0.549095
+Time 972626001: Node1 starts listening
+Time 1005006636: Node2 sends 1005006636_Node2_Node3 to Node3
+2
+Time 1005076836: Node2 stops listening
+Time 1005076836: Node2 PHY starts transmission of 1005006636_Node2_Node3
+Time 1005094130: Node2 PHY ends transmission of 1005006636_Node2_Node3
+Time 1005094173: Node3 MAC receives packet 1005006636_Node2_Node3 from Node2 and sends ACK
+Time 1005094173: Node3 receives 1005006636_Node2_Node3 from Node2
+Time 1005094230: Node2 starts listening
+Time 1005104373: Node3 stops listening
+Time 1005104373: Node3 PHY starts transmission of 1005006636_Node2_Node3 ACK
+Time 1005109538: Node3 PHY ends transmission of 1005006636_Node2_Node3 ACK
+Time 1005109581: Node2 MAC receives ACK 1005006636_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.971386
+Time 1005109638: Node3 starts listening
+Time 1039269798: Node1 sends 1039269798_Node1_Node0 to Node0
+3
+Time 1039349998: Node1 stops listening
+Time 1039349998: Node1 PHY starts transmission of 1039269798_Node1_Node0
+Time 1039653144: Node1 PHY ends transmission of 1039269798_Node1_Node0
+Time 1039653199: Node0 MAC receives packet 1039269798_Node1_Node0 from Node1 and sends ACK
+Time 1039653199: Node0 receives 1039269798_Node1_Node0 from Node1
+Time 1039653244: Node1 starts listening
+Time 1039663399: Node0 stops listening
+Time 1039663399: Node0 PHY starts transmission of 1039269798_Node1_Node0 ACK
+Time 1039668564: Node0 PHY ends transmission of 1039269798_Node1_Node0 ACK
+Time 1039668619: Node1 MAC receives ACK 1039269798_Node1_Node0 from Node0
+Node Node1 begins to learn, reward is 0.250739
+Time 1039668664: Node0 starts listening
+Time 1100814366: Node2 sends 1100814366_Node2_Node3 to Node3
+2
+Time 1100884566: Node2 stops listening
+Time 1100884566: Node2 PHY starts transmission of 1100814366_Node2_Node3
+Time 1100914545: Node2 PHY ends transmission of 1100814366_Node2_Node3
+Time 1100914588: Node3 MAC receives packet 1100814366_Node2_Node3 from Node2 and sends ACK
+Time 1100914588: Node3 receives 1100814366_Node2_Node3 from Node2
+Time 1100914645: Node2 starts listening
+Time 1100924788: Node3 stops listening
+Time 1100924788: Node3 PHY starts transmission of 1100814366_Node2_Node3 ACK
+Time 1100929953: Node3 PHY ends transmission of 1100814366_Node2_Node3 ACK
+Time 1100929996: Node2 MAC receives ACK 1100814366_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.864821
+Time 1100930053: Node3 starts listening
+Time 1110821030: Node1 sends 1110821030_Node1_Node3 to Node3
+5
+Time 1110921230: Node1 stops listening
+Time 1110921230: Node1 PHY starts transmission of 1110821030_Node1_Node3
+Time 1110943839: Node1 PHY ends transmission of 1110821030_Node1_Node3
+Time 1110943902: Node3 MAC receives packet 1110821030_Node1_Node3 from Node1 and sends ACK
+Time 1110943902: Node3 receives 1110821030_Node1_Node3 from Node1
+Time 1110943939: Node1 starts listening
+Time 1110954102: Node3 stops listening
+Time 1110954102: Node3 PHY starts transmission of 1110821030_Node1_Node3 ACK
+Time 1110959267: Node3 PHY ends transmission of 1110821030_Node1_Node3 ACK
+Time 1110959330: Node1 MAC receives ACK 1110821030_Node1_Node3 from Node3
+Node Node1 begins to learn, reward is 0.723063
+Time 1110959367: Node3 starts listening
+Time 1112659226: Node0 sends 1112659226_Node0_Node2 to Node2
+0
+Time 1112709426: Node0 stops listening
+Time 1112709426: Node0 PHY starts transmission of 1112659226_Node0_Node2
+Time 1112877516: Node0 PHY ends transmission of 1112659226_Node0_Node2
+Time 1112877536: Node2 MAC receives packet 1112659226_Node0_Node2 from Node0 and sends ACK
+Time 1112877536: Node2 receives 1112659226_Node0_Node2 from Node0
+Time 1112877616: Node0 starts listening
+Time 1112887736: Node2 stops listening
+Time 1112887736: Node2 PHY starts transmission of 1112659226_Node0_Node2 ACK
+Time 1112892902: Node2 PHY ends transmission of 1112659226_Node0_Node2 ACK
+Time 1112892922: Node0 MAC receives ACK 1112659226_Node0_Node2 from Node2
+Node Node0 begins to learn, reward is 0.427906
+Time 1112893002: Node2 starts listening
+Time 1130346243: Node1 sends 1130346243_Node1_Node2 to Node2
+0
+Time 1130396443: Node1 stops listening
+Time 1130396443: Node1 PHY starts transmission of 1130346243_Node1_Node2
+Time 1130735071: Node1 PHY ends transmission of 1130346243_Node1_Node2
+Time 1130735109: Node2 MAC receives packet 1130346243_Node1_Node2 from Node1 and sends ACK
+Time 1130735109: Node2 receives 1130346243_Node1_Node2 from Node1
+Time 1130735171: Node1 starts listening
+Time 1130745309: Node2 stops listening
+Time 1130745309: Node2 PHY starts transmission of 1130346243_Node1_Node2 ACK
+Time 1130750474: Node2 PHY ends transmission of 1130346243_Node1_Node2 ACK
+Time 1130750512: Node1 MAC receives ACK 1130346243_Node1_Node2 from Node2
+Node Node1 begins to learn, reward is 0.247360
+Time 1130750574: Node2 starts listening
+Time 1222626705: Node0 sends 1222626705_Node0_Node1 to Node1
+4
+Time 1222716905: Node0 stops listening
+Time 1222716905: Node0 PHY starts transmission of 1222626705_Node0_Node1
+Time 1222908070: Node0 PHY ends transmission of 1222626705_Node0_Node1
+Time 1222908125: Node1 MAC receives packet 1222626705_Node0_Node1 from Node0 and sends ACK
+Time 1222908125: Node1 receives 1222626705_Node0_Node1 from Node0
+Time 1222908170: Node0 starts listening
+Time 1222918325: Node1 stops listening
+Time 1222918325: Node1 PHY starts transmission of 1222626705_Node0_Node1 ACK
+Time 1222923490: Node1 PHY ends transmission of 1222626705_Node0_Node1 ACK
+Time 1222923545: Node0 MAC receives ACK 1222626705_Node0_Node1 from Node1
+Node Node0 begins to learn, reward is 0.336882
+Time 1222923590: Node1 starts listening
+Time 1240900203: Node2 sends 1240900203_Node2_Node1 to Node1
+0
+Time 1240950403: Node2 stops listening
+Time 1240950403: Node2 PHY starts transmission of 1240900203_Node2_Node1
+Time 1241014623: Node2 PHY ends transmission of 1240900203_Node2_Node1
+Time 1241014661: Node1 MAC receives packet 1240900203_Node2_Node1 from Node2 and sends ACK
+Time 1241014661: Node1 receives 1240900203_Node2_Node1 from Node2
+Time 1241014723: Node2 starts listening
+Time 1241024861: Node1 stops listening
+Time 1241024861: Node1 PHY starts transmission of 1240900203_Node2_Node1 ACK
+Time 1241030026: Node1 PHY ends transmission of 1240900203_Node2_Node1 ACK
+Time 1241030064: Node2 MAC receives ACK 1240900203_Node2_Node1 from Node1
+Node Node2 begins to learn, reward is 0.770050
+Time 1241030126: Node1 starts listening
+Time 1352088879: Node2 sends 1352088879_Node2_Node0 to Node0
+2
+Time 1352159079: Node2 stops listening
+Time 1352159079: Node2 PHY starts transmission of 1352088879_Node2_Node0
+Time 1352264744: Node2 PHY ends transmission of 1352088879_Node2_Node0
+Time 1352264764: Node0 MAC receives packet 1352088879_Node2_Node0 from Node2 and sends ACK
+Time 1352264764: Node0 receives 1352088879_Node2_Node0 from Node2
+Time 1352264844: Node2 starts listening
+Time 1352274964: Node0 stops listening
+Time 1352274964: Node0 PHY starts transmission of 1352088879_Node2_Node0 ACK
+Time 1352280129: Node0 PHY ends transmission of 1352088879_Node2_Node0 ACK
+Time 1352280149: Node2 MAC receives ACK 1352088879_Node2_Node0 from Node0
+Node Node2 begins to learn, reward is 0.522821
+Time 1352280229: Node0 starts listening
+Time 1406764167: Node2 sends 1406764167_Node2_Node3 to Node3
+2
+Time 1406834367: Node2 stops listening
+Time 1406834367: Node2 PHY starts transmission of 1406764167_Node2_Node3
+Time 1406970883: Node2 PHY ends transmission of 1406764167_Node2_Node3
+Time 1406970926: Node3 MAC receives packet 1406764167_Node2_Node3 from Node2 and sends ACK
+Time 1406970926: Node3 receives 1406764167_Node2_Node3 from Node2
+Time 1406970983: Node2 starts listening
+Time 1406981126: Node3 stops listening
+Time 1406981126: Node3 PHY starts transmission of 1406764167_Node2_Node3 ACK
+Time 1406986291: Node3 PHY ends transmission of 1406764167_Node2_Node3 ACK
+Time 1406986334: Node2 MAC receives ACK 1406764167_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.450110
+Time 1406986391: Node3 starts listening
+Time 1426770201: Node0 sends 1426770201_Node0_Node2 to Node2
+0
+Time 1426820401: Node0 stops listening
+Time 1426820401: Node0 PHY starts transmission of 1426770201_Node0_Node2
+Time 1427139084: Node0 PHY ends transmission of 1426770201_Node0_Node2
+Time 1427139104: Node2 MAC receives packet 1426770201_Node0_Node2 from Node0 and sends ACK
+Time 1427139104: Node2 receives 1426770201_Node0_Node2 from Node0
+Time 1427139184: Node0 starts listening
+Time 1427149304: Node2 stops listening
+Time 1427149304: Node2 PHY starts transmission of 1426770201_Node0_Node2 ACK
+Time 1427154469: Node2 PHY ends transmission of 1426770201_Node0_Node2 ACK
+Time 1427154489: Node0 MAC receives ACK 1426770201_Node0_Node2 from Node2
+Node Node0 begins to learn, reward is 0.260221
+Time 1427154569: Node2 starts listening
+Time 1448642424: Node1 sends 1448642424_Node1_Node0 to Node0
+3
+Time 1448722624: Node1 stops listening
+Time 1448722624: Node1 PHY starts transmission of 1448642424_Node1_Node0
+Time 1448910011: Node1 PHY ends transmission of 1448642424_Node1_Node0
+Time 1448910066: Node0 MAC receives packet 1448642424_Node1_Node0 from Node1 and sends ACK
+Time 1448910066: Node0 receives 1448642424_Node1_Node0 from Node1
+Time 1448910111: Node1 starts listening
+Time 1448920266: Node0 stops listening
+Time 1448920266: Node0 PHY starts transmission of 1448642424_Node1_Node0 ACK
+Time 1448925431: Node0 PHY ends transmission of 1448642424_Node1_Node0 ACK
+Time 1448925486: Node1 MAC receives ACK 1448642424_Node1_Node0 from Node0
+Node Node1 begins to learn, reward is 0.353279
+Time 1448925531: Node0 starts listening
+Time 1534179790: Node0 sends 1534179790_Node0_Node1 to Node1
+4
+Time 1534269990: Node0 stops listening
+Time 1534269990: Node0 PHY starts transmission of 1534179790_Node0_Node1
+Time 1534583229: Node0 PHY ends transmission of 1534179790_Node0_Node1
+Time 1534583284: Node1 MAC receives packet 1534179790_Node0_Node1 from Node0 and sends ACK
+Time 1534583284: Node1 receives 1534179790_Node0_Node1 from Node0
+Time 1534583329: Node0 starts listening
+Time 1534593484: Node1 stops listening
+Time 1534593484: Node1 PHY starts transmission of 1534179790_Node0_Node1 ACK
+Time 1534598649: Node1 PHY ends transmission of 1534179790_Node0_Node1 ACK
+Time 1534598704: Node0 MAC receives ACK 1534179790_Node0_Node1 from Node1
+Node Node0 begins to learn, reward is 0.238712
+Time 1534598749: Node1 starts listening
+Time 1630092782: Node2 sends 1630092782_Node2_Node0 to Node0
+2
+Time 1630162982: Node2 stops listening
+Time 1630162982: Node2 PHY starts transmission of 1630092782_Node2_Node0
+Time 1630299295: Node2 PHY ends transmission of 1630092782_Node2_Node0
+Time 1630299315: Node0 MAC receives packet 1630092782_Node2_Node0 from Node2 and sends ACK
+Time 1630299315: Node0 receives 1630092782_Node2_Node0 from Node2
+Time 1630299395: Node2 starts listening
+Time 1630309515: Node0 stops listening
+Time 1630309515: Node0 PHY starts transmission of 1630092782_Node2_Node0 ACK
+Time 1630314680: Node0 PHY ends transmission of 1630092782_Node2_Node0 ACK
+Time 1630314700: Node2 MAC receives ACK 1630092782_Node2_Node0 from Node0
+Node Node2 begins to learn, reward is 0.450616
+Time 1630314780: Node0 starts listening
+Time 1674366488: Node1 sends 1674366488_Node1_Node2 to Node2
+0
+Time 1674416688: Node1 stops listening
+Time 1674416688: Node1 PHY starts transmission of 1674366488_Node1_Node2
+Time 1674711908: Node1 PHY ends transmission of 1674366488_Node1_Node2
+Time 1674711946: Node2 MAC receives packet 1674366488_Node1_Node2 from Node1 and sends ACK
+Time 1674711946: Node2 receives 1674366488_Node1_Node2 from Node1
+Time 1674712008: Node1 starts listening
+Time 1674722146: Node2 stops listening
+Time 1674722146: Node2 PHY starts transmission of 1674366488_Node1_Node2 ACK
+Time 1674727311: Node2 PHY ends transmission of 1674366488_Node1_Node2 ACK
+Time 1674727349: Node1 MAC receives ACK 1674366488_Node1_Node2 from Node2
+Node Node1 begins to learn, reward is 0.277115
+Time 1674727411: Node2 starts listening
+Time 1681331522: Node3 sends 1681331522_Node3_Node0 to Node0
+7
+Time 1681451722: Node3 stops listening
+Time 1681451722: Node3 PHY starts transmission of 1681331522_Node3_Node0
+Time 1681635794: Node3 PHY ends transmission of 1681331522_Node3_Node0
+Time 1681635850: Node0 MAC receives packet 1681331522_Node3_Node0 from Node3 and sends ACK
+Time 1681635850: Node0 receives 1681331522_Node3_Node0 from Node3
+Time 1681635894: Node3 starts listening
+Time 1681646050: Node0 stops listening
+Time 1681646050: Node0 PHY starts transmission of 1681331522_Node3_Node0 ACK
+Time 1681651215: Node0 PHY ends transmission of 1681331522_Node3_Node0 ACK
+Time 1681651271: Node3 MAC receives ACK 1681331522_Node3_Node0 from Node0
+Node Node3 begins to learn, reward is 0.312745
+Time 1681651315: Node0 starts listening
+Time 1686078295: Node0 sends 1686078295_Node0_Node1 to Node1
+4
+Time 1686168495: Node0 stops listening
+Time 1686168495: Node0 PHY starts transmission of 1686078295_Node0_Node1
+Time 1686270308: Node0 PHY ends transmission of 1686078295_Node0_Node1
+Time 1686270363: Node1 MAC receives packet 1686078295_Node0_Node1 from Node0 and sends ACK
+Time 1686270363: Node1 receives 1686078295_Node0_Node1 from Node0
+Time 1686270408: Node0 starts listening
+Time 1686280563: Node1 stops listening
+Time 1686280563: Node1 PHY starts transmission of 1686078295_Node0_Node1 ACK
+Time 1686285728: Node1 PHY ends transmission of 1686078295_Node0_Node1 ACK
+Time 1686285783: Node0 MAC receives ACK 1686078295_Node0_Node1 from Node1
+Node Node0 begins to learn, reward is 0.481955
+Time 1686285828: Node1 starts listening
+Time 1861040314: Node3 sends 1861040314_Node3_Node0 to Node0
+7
+Time 1861160514: Node3 stops listening
+Time 1861160514: Node3 PHY starts transmission of 1861040314_Node3_Node0
+Time 1861341456: Node3 PHY ends transmission of 1861040314_Node3_Node0
+Time 1861341512: Node0 MAC receives packet 1861040314_Node3_Node0 from Node3 and sends ACK
+Time 1861341512: Node0 receives 1861040314_Node3_Node0 from Node3
+Time 1861341556: Node3 starts listening
+Time 1861351712: Node0 stops listening
+Time 1861351712: Node0 PHY starts transmission of 1861040314_Node3_Node0 ACK
+Time 1861356877: Node0 PHY ends transmission of 1861040314_Node3_Node0 ACK
+Time 1861356933: Node3 MAC receives ACK 1861040314_Node3_Node0 from Node0
+Node Node3 begins to learn, reward is 0.315836
+Time 1861356977: Node0 starts listening
+Time 1865577509: Node0 sends 1865577509_Node0_Node2 to Node2
+0
+Time 1865627709: Node0 stops listening
+Time 1865627709: Node0 PHY starts transmission of 1865577509_Node0_Node2
+Time 1865911522: Node0 PHY ends transmission of 1865577509_Node0_Node2
+Time 1865911542: Node2 MAC receives packet 1865577509_Node0_Node2 from Node0 and sends ACK
+Time 1865911542: Node2 receives 1865577509_Node0_Node2 from Node0
+Time 1865911622: Node0 starts listening
+Time 1865921742: Node2 stops listening
+Time 1865921742: Node2 PHY starts transmission of 1865577509_Node0_Node2 ACK
+Time 1865926907: Node2 PHY ends transmission of 1865577509_Node0_Node2 ACK
+Time 1865926927: Node0 MAC receives ACK 1865577509_Node0_Node2 from Node2
+Node Node0 begins to learn, reward is 0.286190
+Time 1865927007: Node2 starts listening
+Time 1895735734: Node2 sends 1895735734_Node2_Node1 to Node1
+0
+Time 1895785934: Node2 stops listening
+Time 1895785934: Node2 PHY starts transmission of 1895735734_Node2_Node1
+Time 1895912432: Node2 PHY ends transmission of 1895735734_Node2_Node1
+Time 1895912470: Node1 MAC receives packet 1895735734_Node2_Node1 from Node2 and sends ACK
+Time 1895912470: Node1 receives 1895735734_Node2_Node1 from Node2
+Time 1895912532: Node2 starts listening
+Time 1895922670: Node1 stops listening
+Time 1895922670: Node1 PHY starts transmission of 1895735734_Node2_Node1 ACK
+Time 1895927835: Node1 PHY ends transmission of 1895735734_Node2_Node1 ACK
+Time 1895927873: Node2 MAC receives ACK 1895735734_Node2_Node1 from Node1
+Node Node2 begins to learn, reward is 0.520455
+Time 1895927935: Node1 starts listening
+Time 1945906687: Node2 sends 1945906687_Node2_Node1 to Node1
+0
+Time 1945956887: Node2 stops listening
+Time 1945956887: Node2 PHY starts transmission of 1945906687_Node2_Node1
+Time 1946088922: Node2 PHY ends transmission of 1945906687_Node2_Node1
+Time 1946088960: Node1 MAC receives packet 1945906687_Node2_Node1 from Node2 and sends ACK
+Time 1946088960: Node1 receives 1945906687_Node2_Node1 from Node2
+Time 1946089022: Node2 starts listening
+Time 1946099160: Node1 stops listening
+Time 1946099160: Node1 PHY starts transmission of 1945906687_Node2_Node1 ACK
+Time 1946104325: Node1 PHY ends transmission of 1945906687_Node2_Node1 ACK
+Time 1946104363: Node2 MAC receives ACK 1945906687_Node2_Node1 from Node1
+Node Node2 begins to learn, reward is 0.505877
+Time 1946104425: Node1 starts listening
+Time 2018034853: Node0 sends 2018034853_Node0_Node2 to Node2
+0
+Time 2018085053: Node0 stops listening
+Time 2018085053: Node0 PHY starts transmission of 2018034853_Node0_Node2
+Time 2018183903: Node0 PHY ends transmission of 2018034853_Node0_Node2
+Time 2018183923: Node2 MAC receives packet 2018034853_Node0_Node2 from Node0 and sends ACK
+Time 2018183923: Node2 receives 2018034853_Node0_Node2 from Node0
+Time 2018184003: Node0 starts listening
+Time 2018194123: Node2 stops listening
+Time 2018194123: Node2 PHY starts transmission of 2018034853_Node0_Node2 ACK
+Time 2018199288: Node2 PHY ends transmission of 2018034853_Node0_Node2 ACK
+Time 2018199308: Node0 MAC receives ACK 2018034853_Node0_Node2 from Node2
+Node Node0 begins to learn, reward is 0.608068
+Time 2018199388: Node2 starts listening
+Time 2026911681: Node1 sends 2026911681_Node1_Node2 to Node2
+0
+Time 2026961881: Node1 stops listening
+Time 2026961881: Node1 PHY starts transmission of 2026911681_Node1_Node2
+Time 2027050083: Node1 PHY ends transmission of 2026911681_Node1_Node2
+Time 2027050121: Node2 MAC receives packet 2026911681_Node1_Node2 from Node1 and sends ACK
+Time 2027050121: Node2 receives 2026911681_Node1_Node2 from Node1
+Time 2027050183: Node1 starts listening
+Time 2027060321: Node2 stops listening
+Time 2027060321: Node2 PHY starts transmission of 2026911681_Node1_Node2 ACK
+Time 2027065486: Node2 PHY ends transmission of 2026911681_Node1_Node2 ACK
+Time 2027065524: Node1 MAC receives ACK 2026911681_Node1_Node2 from Node2
+Node Node1 begins to learn, reward is 0.650013
+Time 2027065586: Node2 starts listening
+Time 2049705280: Node2 sends 2049705280_Node2_Node1 to Node1
+5
+Time 2049805480: Node2 stops listening
+Time 2049805480: Node2 PHY starts transmission of 2049705280_Node2_Node1
+Time 2049977237: Node2 PHY ends transmission of 2049705280_Node2_Node1
+Time 2049977275: Node1 MAC receives packet 2049705280_Node2_Node1 from Node2 and sends ACK
+Time 2049977275: Node1 receives 2049705280_Node2_Node1 from Node2
+Time 2049977337: Node2 starts listening
+Time 2049987475: Node1 stops listening
+Time 2049987475: Node1 PHY starts transmission of 2049705280_Node2_Node1 ACK
+Time 2049992640: Node1 PHY ends transmission of 2049705280_Node2_Node1 ACK
+Time 2049992678: Node2 MAC receives ACK 2049705280_Node2_Node1 from Node1
+Node Node2 begins to learn, reward is 0.347949
+Time 2049992740: Node1 starts listening
+Time 2102570813: Node3 sends 2102570813_Node3_Node1 to Node1
+7
+Time 2102691013: Node3 stops listening
+Time 2102691013: Node3 PHY starts transmission of 2102570813_Node3_Node1
+Time 2102888011: Node3 PHY ends transmission of 2102570813_Node3_Node1
+Time 2102888074: Node1 MAC receives packet 2102570813_Node3_Node1 from Node3 and sends ACK
+Time 2102888074: Node1 receives 2102570813_Node3_Node1 from Node3
+Time 2102888111: Node3 starts listening
+Time 2102898274: Node1 stops listening
+Time 2102898274: Node1 PHY starts transmission of 2102570813_Node3_Node1 ACK
+Time 2102903439: Node1 PHY ends transmission of 2102570813_Node3_Node1 ACK
+Time 2102903502: Node3 MAC receives ACK 2102570813_Node3_Node1 from Node1
+Node Node3 begins to learn, reward is 0.300581
+Time 2102903539: Node1 starts listening
+Time 2214380632: Node1 sends 2214380632_Node1_Node3 to Node3
+5
+Time 2214480832: Node1 stops listening
+Time 2214480832: Node1 PHY starts transmission of 2214380632_Node1_Node3
+Time 2214649256: Node1 PHY ends transmission of 2214380632_Node1_Node3
+Time 2214649319: Node3 MAC receives packet 2214380632_Node1_Node3 from Node1 and sends ACK
+Time 2214649319: Node3 receives 2214380632_Node1_Node3 from Node1
+Time 2214649356: Node1 starts listening
+Time 2214659519: Node3 stops listening
+Time 2214659519: Node3 PHY starts transmission of 2214380632_Node1_Node3 ACK
+Time 2214664684: Node3 PHY ends transmission of 2214380632_Node1_Node3 ACK
+Time 2214664747: Node1 MAC receives ACK 2214380632_Node1_Node3 from Node3
+Node Node1 begins to learn, reward is 0.351970
+Time 2214664784: Node3 starts listening
+Time 2224611145: Node2 sends 2224611145_Node2_Node3 to Node3
+2
+Time 2224681345: Node2 stops listening
+Time 2224681345: Node2 PHY starts transmission of 2224611145_Node2_Node3
+Time 2224867658: Node2 PHY ends transmission of 2224611145_Node2_Node3
+Time 2224867701: Node3 MAC receives packet 2224611145_Node2_Node3 from Node2 and sends ACK
+Time 2224867701: Node3 receives 2224611145_Node2_Node3 from Node2
+Time 2224867758: Node2 starts listening
+Time 2224877901: Node3 stops listening
+Time 2224877901: Node3 PHY starts transmission of 2224611145_Node2_Node3 ACK
+Time 2224883066: Node3 PHY ends transmission of 2224611145_Node2_Node3 ACK
+Time 2224883109: Node2 MAC receives ACK 2224611145_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.367695
+Time 2224883166: Node3 starts listening
+Time 2243539346: Node0 sends 2243539346_Node0_Node1 to Node1
+4
+Time 2243629546: Node0 stops listening
+Time 2243629546: Node0 PHY starts transmission of 2243539346_Node0_Node1
+Time 2243962414: Node0 PHY ends transmission of 2243539346_Node0_Node1
+Time 2243962469: Node1 MAC receives packet 2243539346_Node0_Node1 from Node0 and sends ACK
+Time 2243962469: Node1 receives 2243539346_Node0_Node1 from Node0
+Time 2243962514: Node0 starts listening
+Time 2243972669: Node1 stops listening
+Time 2243972669: Node1 PHY starts transmission of 2243539346_Node0_Node1 ACK
+Time 2243977834: Node1 PHY ends transmission of 2243539346_Node0_Node1 ACK
+Time 2243977889: Node0 MAC receives ACK 2243539346_Node0_Node1 from Node1
+Node Node0 begins to learn, reward is 0.228027
+Time 2243977934: Node1 starts listening
+Time 2263411769: Node0 sends 2263411769_Node0_Node1 to Node1
+4
+Time 2263501969: Node0 stops listening
+Time 2263501969: Node0 PHY starts transmission of 2263411769_Node0_Node1
+Time 2263777078: Node0 PHY ends transmission of 2263411769_Node0_Node1
+Time 2263777133: Node1 MAC receives packet 2263411769_Node0_Node1 from Node0 and sends ACK
+Time 2263777133: Node1 receives 2263411769_Node0_Node1 from Node0
+Time 2263777178: Node0 starts listening
+Time 2263787333: Node1 stops listening
+Time 2263787333: Node1 PHY starts transmission of 2263411769_Node0_Node1 ACK
+Time 2263792498: Node1 PHY ends transmission of 2263411769_Node0_Node1 ACK
+Time 2263792553: Node0 MAC receives ACK 2263411769_Node0_Node1 from Node1
+Node Node0 begins to learn, reward is 0.262616
+Time 2263792598: Node1 starts listening
+Time 2302613071: Node3 sends 2302613071_Node3_Node0 to Node0
+7
+Time 2302733271: Node3 stops listening
+Time 2302733271: Node3 PHY starts transmission of 2302613071_Node3_Node0
+Time 2302789861: Node3 PHY ends transmission of 2302613071_Node3_Node0
+Time 2302789917: Node0 MAC receives packet 2302613071_Node3_Node0 from Node3 and sends ACK
+Time 2302789917: Node0 receives 2302613071_Node3_Node0 from Node3
+Time 2302789961: Node3 starts listening
+Time 2302800117: Node0 stops listening
+Time 2302800117: Node0 PHY starts transmission of 2302613071_Node3_Node0 ACK
+Time 2302805283: Node0 PHY ends transmission of 2302613071_Node3_Node0 ACK
+Time 2302805339: Node3 MAC receives ACK 2302613071_Node3_Node0 from Node0
+Node Node3 begins to learn, reward is 0.520107
+Time 2302805383: Node0 starts listening
+Time 2303836737: Node2 sends 2303836737_Node2_Node3 to Node3
+2
+Time 2303906937: Node2 stops listening
+Time 2303906937: Node2 PHY starts transmission of 2303836737_Node2_Node3
+Time 2304050009: Node2 PHY ends transmission of 2303836737_Node2_Node3
+Time 2304050052: Node3 MAC receives packet 2303836737_Node2_Node3 from Node2 and sends ACK
+Time 2304050052: Node3 receives 2303836737_Node2_Node3 from Node2
+Time 2304050109: Node2 starts listening
+Time 2304060252: Node3 stops listening
+Time 2304060252: Node3 PHY starts transmission of 2303836737_Node2_Node3 ACK
+Time 2304065417: Node3 PHY ends transmission of 2303836737_Node2_Node3 ACK
+Time 2304065460: Node2 MAC receives ACK 2303836737_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.437209
+Time 2304065517: Node3 starts listening
+Time 2348139229: Node2 sends 2348139229_Node2_Node3 to Node3
+2
+Time 2348209429: Node2 stops listening
+Time 2348209429: Node2 PHY starts transmission of 2348139229_Node2_Node3
+Time 2348507649: Node2 PHY ends transmission of 2348139229_Node2_Node3
+Time 2348507692: Node3 MAC receives packet 2348139229_Node2_Node3 from Node2 and sends ACK
+Time 2348507692: Node3 receives 2348139229_Node2_Node3 from Node2
+Time 2348507749: Node2 starts listening
+Time 2348517892: Node3 stops listening
+Time 2348517892: Node3 PHY starts transmission of 2348139229_Node2_Node3 ACK
+Time 2348523057: Node3 PHY ends transmission of 2348139229_Node2_Node3 ACK
+Time 2348523100: Node2 MAC receives ACK 2348139229_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.260504
+Time 2348523157: Node3 starts listening
+Time 2368252458: Node2 sends 2368252458_Node2_Node1 to Node1
+0
+Time 2368302658: Node2 stops listening
+Time 2368302658: Node2 PHY starts transmission of 2368252458_Node2_Node1
+Time 2368529563: Node2 PHY ends transmission of 2368252458_Node2_Node1
+Time 2368529601: Node1 MAC receives packet 2368252458_Node2_Node1 from Node2 and sends ACK
+Time 2368529601: Node1 receives 2368252458_Node2_Node1 from Node2
+Time 2368529663: Node2 starts listening
+Time 2368539801: Node1 stops listening
+Time 2368539801: Node1 PHY starts transmission of 2368252458_Node2_Node1 ACK
+Time 2368544966: Node1 PHY ends transmission of 2368252458_Node2_Node1 ACK
+Time 2368545004: Node2 MAC receives ACK 2368252458_Node2_Node1 from Node1
+Node Node2 begins to learn, reward is 0.341826
+Time 2368545066: Node1 starts listening
+Time 2454053693: Node2 sends 2454053693_Node2_Node0 to Node0
+2
+Time 2454123893: Node2 stops listening
+Time 2454123893: Node2 PHY starts transmission of 2454053693_Node2_Node0
+Time 2454243669: Node2 PHY ends transmission of 2454053693_Node2_Node0
+Time 2454243689: Node0 MAC receives packet 2454053693_Node2_Node0 from Node2 and sends ACK
+Time 2454243689: Node0 receives 2454053693_Node2_Node0 from Node2
+Time 2454243769: Node2 starts listening
+Time 2454253889: Node0 stops listening
+Time 2454253889: Node0 PHY starts transmission of 2454053693_Node2_Node0 ACK
+Time 2454259054: Node0 PHY ends transmission of 2454053693_Node2_Node0 ACK
+Time 2454259074: Node2 MAC receives ACK 2454053693_Node2_Node0 from Node0
+Node Node2 begins to learn, reward is 0.486900
+Time 2454259154: Node0 starts listening
+Time 2454915982: Node2 sends 2454915982_Node2_Node0 to Node0
+2
+Time 2454986182: Node2 stops listening
+Time 2454986182: Node2 PHY starts transmission of 2454915982_Node2_Node0
+Time 2455211365: Node2 PHY ends transmission of 2454915982_Node2_Node0
+Time 2455211385: Node0 MAC receives packet 2454915982_Node2_Node0 from Node2 and sends ACK
+Time 2455211385: Node0 receives 2454915982_Node2_Node0 from Node2
+Time 2455211465: Node2 starts listening
+Time 2455221585: Node0 stops listening
+Time 2455221585: Node0 PHY starts transmission of 2454915982_Node2_Node0 ACK
+Time 2455226750: Node0 PHY ends transmission of 2454915982_Node2_Node0 ACK
+Time 2455226770: Node2 MAC receives ACK 2454915982_Node2_Node0 from Node0
+Node Node2 begins to learn, reward is 0.321762
+Time 2455226850: Node0 starts listening
+Time 2540285061: Node0 sends 2540285061_Node0_Node2 to Node2
+0
+Time 2540335261: Node0 stops listening
+Time 2540335261: Node0 PHY starts transmission of 2540285061_Node0_Node2
+Time 2540373777: Node0 PHY ends transmission of 2540285061_Node0_Node2
+Time 2540373797: Node2 MAC receives packet 2540285061_Node0_Node2 from Node0 and sends ACK
+Time 2540373797: Node2 receives 2540285061_Node0_Node2 from Node0
+Time 2540373877: Node0 starts listening
+Time 2540383997: Node2 stops listening
+Time 2540383997: Node2 PHY starts transmission of 2540285061_Node0_Node2 ACK
+Time 2540389162: Node2 PHY ends transmission of 2540285061_Node0_Node2 ACK
+Time 2540389182: Node0 MAC receives ACK 2540285061_Node0_Node2 from Node2
+Node Node0 begins to learn, reward is 0.960413
+Time 2540389262: Node2 starts listening
+Time 2575950530: Node2 sends 2575950530_Node2_Node3 to Node3
+2
+Time 2576020730: Node2 stops listening
+Time 2576020730: Node2 PHY starts transmission of 2575950530_Node2_Node3
+Time 2576278413: Node2 PHY ends transmission of 2575950530_Node2_Node3
+Time 2576278456: Node3 MAC receives packet 2575950530_Node2_Node3 from Node2 and sends ACK
+Time 2576278456: Node3 receives 2575950530_Node2_Node3 from Node2
+Time 2576278513: Node2 starts listening
+Time 2576288656: Node3 stops listening
+Time 2576288656: Node3 PHY starts transmission of 2575950530_Node2_Node3 ACK
+Time 2576293821: Node3 PHY ends transmission of 2575950530_Node2_Node3 ACK
+Time 2576293864: Node2 MAC receives ACK 2575950530_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.291261
+Time 2576293921: Node3 starts listening
+Time 2581621536: Node2 sends 2581621536_Node2_Node3 to Node3
+2
+Time 2581691736: Node2 stops listening
+Time 2581691736: Node2 PHY starts transmission of 2581621536_Node2_Node3
+Time 2582022197: Node2 PHY ends transmission of 2581621536_Node2_Node3
+Time 2582022240: Node3 MAC receives packet 2581621536_Node2_Node3 from Node2 and sends ACK
+Time 2582022240: Node3 receives 2581621536_Node2_Node3 from Node2
+Time 2582022297: Node2 starts listening
+Time 2582032440: Node3 stops listening
+Time 2582032440: Node3 PHY starts transmission of 2581621536_Node2_Node3 ACK
+Time 2582037605: Node3 PHY ends transmission of 2581621536_Node2_Node3 ACK
+Time 2582037648: Node2 MAC receives ACK 2581621536_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.240320
+Time 2582037705: Node3 starts listening
+Time 2603954378: Node2 sends 2603954378_Node2_Node3 to Node3
+5
+Time 2604054578: Node2 stops listening
+Time 2604054578: Node2 PHY starts transmission of 2603954378_Node2_Node3
+Time 2604375706: Node2 PHY ends transmission of 2603954378_Node2_Node3
+Time 2604375749: Node3 MAC receives packet 2603954378_Node2_Node3 from Node2 and sends ACK
+Time 2604375749: Node3 receives 2603954378_Node2_Node3 from Node2
+Time 2604375806: Node2 starts listening
+Time 2604385949: Node3 stops listening
+Time 2604385949: Node3 PHY starts transmission of 2603954378_Node2_Node3 ACK
+Time 2604391114: Node3 PHY ends transmission of 2603954378_Node2_Node3 ACK
+Time 2604391157: Node2 MAC receives ACK 2603954378_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.228949
+Time 2604391214: Node3 starts listening
+Time 2642495197: Node2 sends 2642495197_Node2_Node0 to Node0
+2
+Time 2642565397: Node2 stops listening
+Time 2642565397: Node2 PHY starts transmission of 2642495197_Node2_Node0
+Time 2642896006: Node2 PHY ends transmission of 2642495197_Node2_Node0
+Time 2642896026: Node0 MAC receives packet 2642495197_Node2_Node0 from Node2 and sends ACK
+Time 2642896026: Node0 receives 2642495197_Node2_Node0 from Node2
+Time 2642896106: Node2 starts listening
+Time 2642906226: Node0 stops listening
+Time 2642906226: Node0 PHY starts transmission of 2642495197_Node2_Node0 ACK
+Time 2642911391: Node0 PHY ends transmission of 2642495197_Node2_Node0 ACK
+Time 2642911411: Node2 MAC receives ACK 2642495197_Node2_Node0 from Node0
+Node Node2 begins to learn, reward is 0.240261
+Time 2642911491: Node0 starts listening
+Time 2666622125: Node0 sends 2666622125_Node0_Node2 to Node2
+0
+Time 2666672325: Node0 stops listening
+Time 2666672325: Node0 PHY starts transmission of 2666622125_Node0_Node2
+Time 2666948693: Node0 PHY ends transmission of 2666622125_Node0_Node2
+Time 2666948713: Node2 MAC receives packet 2666622125_Node0_Node2 from Node0 and sends ACK
+Time 2666948713: Node2 receives 2666622125_Node0_Node2 from Node0
+Time 2666948793: Node0 starts listening
+Time 2666958913: Node2 stops listening
+Time 2666958913: Node2 PHY starts transmission of 2666622125_Node0_Node2 ACK
+Time 2666964078: Node2 PHY ends transmission of 2666622125_Node0_Node2 ACK
+Time 2666964098: Node0 MAC receives ACK 2666622125_Node0_Node2 from Node2
+Node Node0 begins to learn, reward is 0.292420
+Time 2666964178: Node2 starts listening
+Time 2672444996: Node2 sends 2672444996_Node2_Node3 to Node3
+2
+Time 2672515196: Node2 stops listening
+Time 2672515196: Node2 PHY starts transmission of 2672444996_Node2_Node3
+Time 2672627861: Node2 PHY ends transmission of 2672444996_Node2_Node3
+Time 2672627904: Node3 MAC receives packet 2672444996_Node2_Node3 from Node2 and sends ACK
+Time 2672627904: Node3 receives 2672444996_Node2_Node3 from Node2
+Time 2672627961: Node2 starts listening
+Time 2672638104: Node3 stops listening
+Time 2672638104: Node3 PHY starts transmission of 2672444996_Node2_Node3 ACK
+Time 2672643269: Node3 PHY ends transmission of 2672444996_Node2_Node3 ACK
+Time 2672643312: Node2 MAC receives ACK 2672444996_Node2_Node3 from Node3
+Node Node2 begins to learn, reward is 0.504246
+Time 2672643369: Node3 starts listening
+Time 2682492318: Node3 sends 2682492318_Node3_Node0 to Node0
+7

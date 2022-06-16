@@ -1,0 +1,83 @@
+2022-06-01 00:27:10-sim.log
+
+Parameters of this simulation:
+*****
+
+ACK_LENGTH = 272
+ACK_TIMEOUT = 366964.962962963
+BITRATE = 54000000
+BIT_TRANSMISSION_TIME = 18.51851851851852
+CW_MAX = 1024
+CW_MIN = 16
+DIFS_DURATION = 50000
+FREQUENCY = 2400000000
+MAC_HEADER_LENGTH = 272
+MAX_MAC_PAYLOAD_LENGTH = 18496
+MAX_RETRANSMITION_TIME = 5
+NOISE_FLOOR = 1e-09
+NUMBER_OF_NODES = 4
+PACKET_LOSS_RATE = 0.01
+PHY_HEADER_LENGTH = 128
+PRINT_LOGS = True
+RADIO_SENSITIVITY = 1e-10
+RADIO_SWITCHING_TIME = 100
+SIFS_DURATION = 10000
+SIM_TIME = 10000000000.0
+SLOT_DURATION = 20000
+STARTING_RATE = 5
+TARGET_RATE = 5
+TRANSMITTING_POWER = 0.1
+WAVELENGTH = 0.12491352416666666
+*****
+
+Log starting
+------------------------
+
+Node0 created with coordinates 6 36
+Node1 created with coordinates 12 0
+Node2 created with coordinates 18 8
+Node3 created with coordinates 39 24
+Time 100: Node0 starts listening
+Time 100: Node1 starts listening
+Time 100: Node2 starts listening
+Time 100: Node3 starts listening
+Time 135178320: Node0 sends 135178320_Node0_Node3 to Node3
+Time 135258520: Node0 stops listening
+Time 135258520: Node0 PHY starts transmission of 135178320_Node0_Node3
+Time 135532981: Node0 PHY ends transmission of 135178320_Node0_Node3
+Time 135533081: Node0 starts listening
+Time 135625284: Node0 135178320_Node0_Node3 transmit timeout without ACK from Node3
+Time 135625284: Node0 MAC retransmit 135178320_Node0_Node3 to Node3
+Node Node0 begins to learn, reward is -1.000000
+Time 135695484: Node0 stops listening
+Time 135695484: Node0 PHY starts transmission of 135178320_Node0_Node3
+Time 135969946: Node0 PHY ends transmission of 135178320_Node0_Node3
+Time 135970046: Node0 starts listening
+Time 136062249: Node0 135178320_Node0_Node3 transmit timeout without ACK from Node3
+Time 136062249: Node0 MAC retransmit 135178320_Node0_Node3 to Node3
+Node Node0 begins to learn, reward is -1.000000
+Time 136192449: Node0 stops listening
+Time 136192449: Node0 PHY starts transmission of 135178320_Node0_Node3
+Time 136466911: Node0 PHY ends transmission of 135178320_Node0_Node3
+Time 136467011: Node0 starts listening
+Time 136559214: Node0 135178320_Node0_Node3 transmit timeout without ACK from Node3
+Time 136559214: Node0 MAC retransmit 135178320_Node0_Node3 to Node3
+Node Node0 begins to learn, reward is -1.000000
+Time 136619414: Node0 stops listening
+Time 136619414: Node0 PHY starts transmission of 135178320_Node0_Node3
+Time 136893876: Node0 PHY ends transmission of 135178320_Node0_Node3
+Time 136893976: Node0 starts listening
+Time 136986179: Node0 135178320_Node0_Node3 transmit timeout without ACK from Node3
+Time 136986179: Node0 MAC retransmit 135178320_Node0_Node3 to Node3
+Node Node0 begins to learn, reward is -1.000000
+Time 137036379: Node0 stops listening
+Time 137036379: Node0 PHY starts transmission of 135178320_Node0_Node3
+Time 137310841: Node0 PHY ends transmission of 135178320_Node0_Node3
+Time 137310941: Node0 starts listening
+Time 137403144: Node0 135178320_Node0_Node3 transmit timeout without ACK from Node3
+Time 137403144: Node0 MAC retransmit 135178320_Node0_Node3 to Node3
+Node Node0 begins to learn, reward is -1.000000
+Time 137493344: Node0 stops listening
+Time 137493344: Node0 PHY starts transmission of 135178320_Node0_Node3
+Time 137767806: Node0 PHY ends transmission of 135178320_Node0_Node3
+Time 137767906: Node0 starts listening
