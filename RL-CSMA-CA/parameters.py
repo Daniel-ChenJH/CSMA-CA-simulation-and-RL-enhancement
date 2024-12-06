@@ -55,7 +55,6 @@ e_greedy = 0.9
 REWARD_of_ackfailing = -5
 REWARD_of_transmissionfailing = -20
 
-# CJH 2022/5/11
 def get_attrs(li):
     attrs = []
     s='Parameters of this simulation:\n*****\n\n'
@@ -67,4 +66,3 @@ def get_attrs(li):
     return attrs,s+'*****\n'
 
 attrs,s=get_attrs(dir())
-# CJH 2022/5/11

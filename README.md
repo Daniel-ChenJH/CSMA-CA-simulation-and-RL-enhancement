@@ -2,7 +2,7 @@
  Python interpretation of CSMA-CA and enhancement by using Reinforcement Learning
 
 # 项目背景
-本项目为上海交通大学《无线通信原理与移动网络》（(2021-2022-2)-IE304-1）课程大作业，由朱首行、陈景浩、梁子达、张芊四人小组合作完成。
+本项目为上海交通大学《无线通信原理与移动网络》（(2021-2022-2)-IE304-1）课程大作业，由Daniel-ChenJH及三位队友小组合作完成。
 
 # 项目介绍
     Project 7. 无线信道冲突避免  
@@ -22,10 +22,10 @@
 
 
 # 项目分工
-陈景浩：CSMA-CA协议的仿真与实现，代码架构理解与接口介绍。  
-朱首行：RL的学习、应用，多智能体强化学习研究，汇报PPT制作。  
-梁子达：RL的学习、应用，单智能体强化学习研究。  
-张芊：项目报告的撰写。 
+Daniel-ChenJH：CSMA-CA协议的仿真与实现，代码架构理解与接口介绍。  
+partner 1：RL的学习、应用，多智能体强化学习研究，汇报PPT制作。  
+partner 2：RL的学习、应用，单智能体强化学习研究。  
+partner 3：项目报告的撰写。 
 
 # 成果介绍
 ① 我们构建了一个完整应用 CSMA/CA协议的通信系统，且该通信系统绝大数参数可以由使用者更改。  
@@ -34,19 +34,13 @@
 
 ![](image/README/MADDPG-COMPARE.jpg)
 
-# 不足与展望
-① 通信系统仿真运行效率不够高，在 12700 CPU下运行一次 100秒仿真需要五十分钟左右的时间。  
-② 由于时间较为紧张，且对大规模节点的仿真较为耗时，因此在对 CSMA/CA的仿真中，我们均设定节点数为 4。在后续的实验中，可以考虑将节点数调整至10或以上，观察CSMA/CA对大规模节点的仿真情况并进行性能对比。  
-③ 由于计算资源的限制，现有的多智能体强化学习算法只尝试了 MADDPG这一种policy base的算法，且并未尝试 VDN、 QMIX等 value base算法。  
-④ 对于大规模群体问题，有 MFMARL（基于平均场理论的多智能体强化学习）可以进行简化，但由于我们未上升到大规模系统，故并未进行尝试 。（相关论文链接： https://arxiv.org/abs/1802.05438v4）
-
 # 项目的代码结构
 ![](image/README/STRUCTURE.jpg)
 
-项目更细致的代码结构请参考'structure.md'。  
+项目更细致的代码结构请参考structure.md。  
 
 # 进一步讨论
-有关更细致的讨论与代码实现，可移步：'project7-无线信道冲突避免（1）-朱首行，陈景浩，梁子达，张芊.pdf'。
+有关更细致的讨论与代码实现，可移步：Final Report.pdf。
 
 # 参考代码与文献
 [1] Riccardomicheletto, Computer Science student at University of Trento, Discrete event simulator for the 802.11 CSMA/CA DCF.

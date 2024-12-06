@@ -27,12 +27,10 @@ class Logger(object):
 
 
 def main():
-    # CJH 2022/5/11    
 
     file='results_'+datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
     sys.stdout = Logger(file)
     print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")+"-sim.log\n\n"+parameters.s+'\nLog starting\n------------------------\n')
-    # CJH 2022/5/11
 
     # 创建仿真环境
     env = simpy.Environment()
@@ -42,6 +40,7 @@ def main():
     nodes = []
 
     for i in range(0, parameters.NUMBER_OF_NODES):
+        # 多智能体也是在这里被定义
         name = "Node" + str(i)
         nodes.append(node.Node(env, name, eth, random.randint(0,40), random.randint(0,40), statistics))
 
